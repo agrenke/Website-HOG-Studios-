@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>What will show up on the top of your browser tab</title>
+
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+		-->
+	</head>
+
+	<body>
+	<p> Hello </p>
+	</body>
+</html>
+
+
+<!--
+Useful tips:
+
+Use <h1></h1>... all the way up to 6 to organize sections of your website
+
+Use <p></p> to write paragraphs and crud
+
+Use <ol></ol> to make an ordered list (numbered 1,2,3...)
+
+Use <ul></ul> to make bullet (unorded) lists
+
+Use <li></li> for each individual list entity (inside of your ol / ul)
+
+Use <a href="www.link.com"></a> to send people to another link
+
+Use <img src="www.image.jpg" /> to insert an image!
+
+
+To style and stuff...
+
+<p style="color:black; font-family:Avenir; font-size:15px"></p>
+
+
+To TABLE!
+
+	<table border="2px">
+	<thead>
+		<tr>
+			<th colspan="2">This is the table header (stretching 2 columns wide </th> 
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td>Table Data COL1</td>
+			<td>Table Data COL2</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+
+TWO Ways of using CSS w/ HTML!
+
+1. In the HTML file:
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			p {
+				color: purple;
+			}
+		</style>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>Check it out! I'm purple!</p>
+	</body>
+</html>
+
+
+
+2. LINKING the file (smarter!):
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+	<body>
+		<p>I want to be SIZE 44 font!</p>
+	</body>
+</html>
+
+So... The important link b/w your <head></head> is:
+
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+:)
+
+
+CSS: BREAKDOWN:
+
+
+class-> many entities
+id-> single entities
+
+<div class="class-name"></div>
+.class-name{
+	properties
+}
+
+
+<div id="id-name"></div>
+.id-name{
+	properties
+}
+
+
+psuedo-class selectors:
+a:link{}
+a:visited{}
+a:hover{}
+a:first-child{}
+a:nth-child(x){}
